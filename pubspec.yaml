@@ -1,0 +1,72 @@
+name: zoonekan_emlak
+description: "حرفه‌ای ترین زونکن دیجیتال برای مشاوران املاک"
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  provider: ^6.0.0
+  
+  # Database
+  sqflite: ^2.3.0
+  path_provider: ^2.1.0
+  
+  # Networking
+  http: ^1.1.0
+  dio: ^5.3.0
+  
+  # Share Intent
+  receive_sharing_intent: ^1.4.5
+  
+  # Image Handling
+  image_picker: ^1.0.0
+  cached_network_image: ^3.3.0
+  
+  # UI
+  flutter_screenutil: ^5.9.0
+  google_fonts: ^6.1.0
+  
+  # Local Storage
+  shared_preferences: ^2.2.0
+  
+  # Date & Time
+  intl: ^0.19.0
+  
+  # Encryption
+  encrypt: ^6.0.0
+  
+  # Icons
+  cupertino_icons: ^1.0.2
+  
+  # Json
+  json_serializable: ^6.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_linter: ^2.0.0
+  build_runner: ^2.4.6
+  json_serializable: ^6.7.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+
+  fonts:
+    - family: Vazir
+      fonts:
+        - asset: assets/fonts/Vazir-Regular.ttf
+        - asset: assets/fonts/Vazir-Bold.ttf
+          weight: 700
